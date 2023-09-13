@@ -10,8 +10,7 @@ import firebase from "../assets/img/firebase.png";
 import JavaScript from "../assets/img/javascript.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+
 import colorSharp from "../assets/img/color-sharp.png";
 const skills = [
   {
@@ -110,7 +109,7 @@ export const Skills = () => {
                       key={item.id}
                       //  styles={{ width: "204px", height: "204px" }}
                     >
-                      <img src={item.icon}  alt="Image" />
+                      <img src={item.icon}  alt="" />
                    
                     <h5>{item.title}</h5>
                     </div>
@@ -133,7 +132,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   );
 };
